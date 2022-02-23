@@ -9,11 +9,15 @@
 }
 
 @media screen {
-    
+    .btn-menu {
+        display: none;
+    }
 }
 
-@media (max-width: 1400px) {
-
+@media (max-width: 768px) {
+    .btn-menu {
+        display: inline;
+    }
 }
 
 * {

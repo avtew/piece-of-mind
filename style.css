@@ -9,6 +9,30 @@
 }
 
 @media screen {
+<<<<<<< HEAD
+    .nav {
+        display: none;
+    }
+    
+    .sideMenu {
+        display: block;
+        top: 350px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav {
+        display: inline;
+    } 
+
+    .sideMenu {
+        display: none;
+        top: 350px;
+        left: auto;
+        padding: 30px;
+        background-color: black;
+=======
     .btn-menu {
         display: none;
     }
@@ -17,6 +41,7 @@
 @media (max-width: 768px) {
     .btn-menu {
         display: inline;
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100
     }
 }
 
@@ -30,8 +55,17 @@ a {
 }
 
 body {
+<<<<<<< HEAD
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+=======
     height: 100vh;
     margin: 0;
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100
     padding: 20px;
     font-family: MetalLord;
     color: white;
@@ -43,19 +77,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.title {
+=======
 }
 
 .txt-title {
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100
     font-family: KunstlerScript;
     font-size: 64px;
     color: yellow;
 }
 
+<<<<<<< HEAD
+.nav:hover {
+=======
 .btn-menu:hover {
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100
     cursor: pointer;
     color: red;
 }
 
+<<<<<<< HEAD
+=======
 /*
 
 .container-main {
@@ -70,6 +118,7 @@ body {
     background-repeat: no-repeat;
 }
 
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100
 .sideMenu {
     position: absolute;
 }
@@ -180,6 +229,21 @@ body {
     transition: 0.3s;
 }
 
+<<<<<<< HEAD
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/img/back.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+=======
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100
 .section-main {
     position: absolute;
     display: none;
@@ -319,5 +383,8 @@ body {
     width: 20px;
     height: 20px;
 }
+<<<<<<< HEAD
+=======
 
 */
+>>>>>>> ac77e195d127734dbbd812b3e14dbd168c995100

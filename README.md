@@ -2,6 +2,8 @@
 
 The memory game in setting of Iron Maiden band
 
+https://avtew.github.io/piece-of-mind/
+
 ## Features
 - Three difficulty levels
 - Local leaderboard

@@ -1,57 +1,34 @@
 @font-face {
-    font-family: KunstlerScript;
-    src: url(./assets/fonts/KunstlerScript.TTF)
+  font-family: KunstlerScript;
+  src: url(./assets/fonts/KunstlerScript.TTF)
 }
 
 @font-face {
-    font-family: MetalLord;
-    src: url(./assets/fonts/MetalLord.ttf)
+  font-family: MetalLord;
+  src: url(./assets/fonts/MetalLord.ttf)
 }
 
 @media screen {
-    .nav {
-        display: none;
-    }
-    
-    .sideMenu {
-        display: block;
-        top: 350px;
-        left: 20px;
-    }
-}
+  .nav {
+    display: none;
+  }
 
-@media (max-width: 1400px) {
-    .nav {
-        display: inline;
-    } 
+  .sideMenu {
+    display: block;
+    top: 350px;
+    left: 20px;
+  }
 
-    .sideMenu {
-        display: none;
-        top: 350px;
-        left: auto;
-        padding: 30px;
-        background-color: black;
-    .btn-menu {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .btn-menu {
-        display: inline;
-    }
-}
-
-* {
+  * {
     box-sizing: border-box;
-}
+  }
 
-a {
+  a {
     text-decoration: none;
     color: white;
-}
+  }
 
-body {
+  body {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -65,28 +42,28 @@ body {
     color: white;
     font-size: 26px;
     background-color: black;
-}
+  }
 
-.container-header {
+  .container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding-bottom: 20px;
-}
+  }
 
-.txt-title {
+  .title {
     font-family: KunstlerScript;
     font-size: 64px;
     color: yellow;
-}
+  }
 
-.btn-menu:hover {
+  .btn-menu:hover {
     cursor: pointer;
     color: red;
-}
+  }
 
-.container-main {
+  .container-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,103 +73,103 @@ body {
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-}
+  }
 
-.sideMenu {
+  .sideMenu {
     position: absolute;
-}
+  }
 
-.menu {
+  .menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
     font-size: 32px;
-}
+  }
 
-.difficulty {
+  .difficulty {
     display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-}
+  }
 
-.menuItem {
+  .menuItem {
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
+  }
 
-.discrypt {
+  .discrypt {
     font-size: 16px;
-}
+  }
 
-.menuItem:hover {
+  .menuItem:hover {
     color: red;
     cursor: pointer;
     transition: 0.3s;
-}
+  }
 
-.congrats {
+  .congrats {
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    width:600px;
+    width: 600px;
     height: 400px;
     padding: 30px;
     text-align: center;
     background-color: black;
     border: 1px solid white;
-}
+  }
 
-.defeat {
+  .defeat {
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    width:600px;
+    width: 600px;
     height: 400px;
     padding: 30px;
     text-align: center;
     background-color: black;
     border: 1px solid white;
-}
+  }
 
-.autors-list {
+  .autors-list {
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    width:600px;
+    width: 600px;
     height: 400px;
     padding: 30px;
     text-align: center;
     background-color: black;
     border: 1px solid white;
-}
+  }
 
-.credits {
+  .credits {
     display: flex;
     flex-direction: column;
     gap: 20px;
     color: red;
-}
+  }
 
-.btn-aut:hover {
+  .btn-aut:hover {
     cursor: pointer;
     color: red;
-}
+  }
 
-.btn-def:hover {
+  .btn-def:hover {
     cursor: pointer;
     color: red;
-}
+  }
 
-.name {
+  .name {
     width: 300px;
     height: 50px;
     padding: 0 10px;
@@ -200,15 +177,15 @@ body {
     font-family: MetalLord;
     color: red;
     outline: none;
-}
+  }
 
-.btn-ok:hover {
+  .btn-ok:hover {
     color: red;
     cursor: pointer;
     transition: 0.3s;
-}
+  }
 
-.container-main {
+  .container-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,9 +195,9 @@ body {
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-}
+  }
 
-.section-main {
+  .section-main {
     position: absolute;
     display: none;
     flex-direction: column;
@@ -230,54 +207,55 @@ body {
     padding: 30px;
     background-color: black;
     border: 1px solid white;
-}
+  }
 
-.counts {
+  .counts {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
     color: red;
-}
+  }
 
-.time {
+  .time {
     color: white;
-}
+  }
 
-.moves {
+  .moves {
     color: white;
-}
+  }
 
-.table {
+  .table {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     width: 690px;
     margin: auto;
-}
+  }
 
-.card {
+  .card {
     position: relative;
     width: 130px;
     height: 130px;
     transform-style: preserve-3d;
     transition: transform .5s;
-}
+  }
 
-.card:hover {
+  .card:hover {
     cursor: pointer;
-}
+  }
 
-.card:active {
+  .card:active {
     transform: scale(0.97);
     transition: transform .2s;
-}
+  }
 
-.card.turn {
+  .card.turn {
     transform: rotateY(180deg);
   }
 
-.front, .back {
+  .front,
+  .back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -285,13 +263,13 @@ body {
     background-image: url(./assets/img/grad.png);
     border-radius: 10px;
     backface-visibility: hidden;
-}
+  }
 
-.front {
+  .front {
     transform: rotateY(180deg);
-}
+  }
 
-.leaderboard {
+  .leaderboard {
     display: none;
     justify-content: center;
     align-items: center;
@@ -300,27 +278,28 @@ body {
     text-align: center;
     background-color: black;
     border: 1px solid white;
-}
+  }
 
-.thead, .btn-close {
+  .thead,
+  .btn-close {
     height: 100px;
-}
+  }
 
-.values {
+  .values {
     height: 100px;
     color: red;
-}
+  }
 
-.cell {
+  .cell {
     width: 200px;
-}
+  }
 
-.btn-close:hover {
+  .btn-close:hover {
     cursor: pointer;
     color: red;
-}
+  }
 
-.container-footer {
+  .container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -328,35 +307,59 @@ body {
     width: 100%;
     padding-top: 20px;
     font-family: MetalLord;
-}
+  }
 
-.rss-logo {
+  .rss-logo {
     width: 80px;
     height: 30px;
     transition: 0.3s;
     filter: invert();
-}
+  }
 
-.rss-logo:hover {
+  .rss-logo:hover {
     cursor: pointer;
-}
+  }
 
-.copy {
+  .copy {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-}
+  }
 
-.gh {
+  .gh {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 14px;
-}
+  }
 
-.gh-logo {
+  .gh-logo {
     width: 20px;
     height: 20px;
+  }
 }
+
+@media (max-width: 768px) {
+  .btn-menu {
+    display: inline;
+  }
+}
+
+@media (max-width: 1400px) {
+  .nav {
+    display: inline;
+  }
+
+  .sideMenu {
+    display: none;
+    top: 350px;
+    left: auto;
+    padding: 30px;
+    background-color: black;
+
+    .btn-menu {
+      display: none;
+    }
+  }
 }
